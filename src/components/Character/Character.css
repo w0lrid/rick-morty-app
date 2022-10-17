@@ -1,0 +1,14 @@
+.character {
+  text-align: start;
+  height: 70px;
+}
+
+.character__name {
+  margin: 0;
+  transition: 0.3s;
+}
+
+.character__name:hover {
+  cursor: pointer;
+  color: rgb(116, 160, 136);
+}

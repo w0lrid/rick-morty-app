@@ -1,0 +1,26 @@
+.label {
+  display: block;
+  margin: 4px 0;
+  text-transform: capitalize;
+  transition: 0.2s;
+}
+
+.label:hover {
+  cursor: pointer;
+  color: rgb(147, 116, 160);
+}
+
+.option[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.option:checked + .visible-option {
+  padding: 3px;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+}

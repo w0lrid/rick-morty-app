@@ -1,0 +1,18 @@
+.filters__header {
+  margin-bottom: 30px;
+}
+
+.filters__heading {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.filters__clear-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.filters__clear-button:hover {
+  cursor: pointer;
+}
